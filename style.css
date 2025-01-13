@@ -1,0 +1,58 @@
+header {
+    
+    
+}
+.container {
+    background-color: rgb(250, 222, 187);
+}
+footer {
+    background-color: darksalmon;
+    height: 100px;
+}
+nav{
+    background-color: rgb(248, 228, 207);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-name {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.menu ul{
+    
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 0 0 24px;
+}
+.btn {
+    
+}
+.btn-primary {
+    background-color: coral;
+    color: aliceblue;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: coral;
+}
+.btn-secondary {
+    background-color: aliceblue;
+    color:  coral;
+    padding: 10px 20px ;
+    border-radius: 5px; 
+    text-decoration: none;
+    border: coral;
+    
+
+}
