@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=
+    Mogra&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: rgb(251,252,238);
+            background: linear-gradient(90deg, rgba(251,252,238,1) 0%, rgba(250,253,163,1) 47%, rgba(252,153,219,1) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #333;
+            font-family: "Mogra", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+       .container {   
+           background-color: #fefff1;
+           width: 700px;
+           border-radius: 8px;
+           display: flex;
+           overflow: hidden;
+
+
+
+        }
+        .left-side {
+            background-image: url(/image/bg6.jpg);
+            background-size: cover;
+            background-position: center
+            background-blend-mode darken;
+            background-color: rgba(0,0,0,0.5);
+            color: rgb(255, 253, 222);
+            width: 60%;
+            text-align: center;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+        p{
+            font-family: "Mitr", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-weight:500 ;
+        }
+        .F1{
+            font-family: "Mogra", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-weight: 500;
+
+        }
+        .right-side  {
+            padding: 40px;
+            width: 40%;
+            color: rgb(230, 102, 102);;
+            form{
+                label{
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    color: rgb(244, 135, 177);
+                    display: block;
+                    font-size: 16px;
+                    
+
+                    
+                }
+                input{
+                    width: 100%;
+                    padding: 5px;
+                    border-color: rgb(247, 246, 246);
+                    border-radius: 5px;
+                    margin-bottom: 8px;
+                    font-size: 16px;
+                    box-sizing: border-box;
+
+                }
+                button{
+                    width: 100%;
+                    padding: 8px;
+                    border-color: rgb(247, 246, 246);
+                    border-radius: 5px;
+                    margin-bottom: 4px;
+                    font-size: 16px;
+                    box-sizing: border-box;
+                    background-color: rgb(223, 127, 127);
+                    color: white;
+                    border: none;
+                    margin-top: 10px;
+                    cursor: pointer;
+                    box-shadow: 0px 0px 2px rgb(141, 140, 140);
+                    font-style: normal;
+                    font-family: "Mogra", serif;
+                    &:hover{
+                        background-color: rgb(255, 181, 181);
+                        color: white;
+
+                    }
+                }       
+
+            }
+            
+        }
+        a{
+            color: rgb(249, 192, 58);
+            text-decoration: none;
+            font-size: 14px;
+            font-family: "Mogra", serif;
+            font-style: normal;
+
+            &:hover{
+                color: rgb(250, 141, 222);
+                text-decoration: underline;
+                font-weight: bold;
+                cursor: pointer;
+                text-decoration: none;
+
+            }
+        }
+        .home {
+            color: rgb(254, 253, 251);
+            text-decoration: none;
+            font-size: 14px;
+            font-family: "Mogra", serif;
+            font-style: normal;
+            margin-top: 20px;
+            width: 50%;
+            height: 30px;
+            background-color: rgb(223, 127, 127);
+            border-radius: 5px;
+            border: none;
+
+
+            &:hover{
+                background-color: rgb(253, 212, 212);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                text-decoration: none;
+                
+            }
+            
+        }
+        .a1{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+
+            &:hover{
+                color : rgb(254, 111, 173);
+                text-decoration: underline;
+                text-decoration: none;
+            }
+        }
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>INFORMATION TECHNOLOGY</h1>
+            <P>ยินดีต้อนรับเข้าสู่เว็บไซต์การเรียนรู้วิชาการออกแบบและพัฒนาเว็บเบื้องต้น</P>
+        </div>
+        <div class="right-side">
+                <h2>Login</h2>
+                <form action="" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p class="F1">Forgot <a href="#">Password?</a></p>
+                <p class="F1">Don't have an account? <a href="#"><br>Sign Up</a></p>
+                <button class="home"><a href="index.html" class="a1">Back to Home</a></button>
+
+        </div>
+        
+
+        
+
+    </div>
+    
+    
+
+</body>
+</html>
