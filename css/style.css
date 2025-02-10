@@ -1,58 +1,178 @@
-header {
-    
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Mogra", serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 .container {
-    background-color: rgb(250, 222, 187);
+    background-color: rgb(254, 229, 198);
+    display: grid; 
+    place-items: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 20px;
 }
 footer {
-    background-color: darksalmon;
+    background-color: rgb(245, 169, 144);
     height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+
 }
+
 nav{
-    background-color: rgb(248, 228, 207);
+    background-color:rgb(245, 169, 144);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:  rgb(99, 57, 15);
 }
 .logo-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
+
 .logo-name {
     
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 10px;
+    font-size: 110%;
+    
+    
     
 }
-.menu ul{
-    
+.menu ul  {    
     display: flex;
-    list-style-type: none;
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
     padding: 0 0 0 24px;
+    list-style-type: none;
+    margin-left: 10px;
+
+
 }
-.btn {
-    
+
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 560;
+    font-size: 120%;
 }
+.menu ul li a:hover {
+    color: rgb(111, 60, 13);
+}
+
 .btn-primary {
-    background-color: coral;
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(251, 134, 92);
     padding: 10px 20px ;
     border-radius: 5px;
     text-decoration: none;
-    border-color: coral;
+    border-color: rgb(251, 134, 92);
+    margin-right: 20px;
+    
+    
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(249, 189, 156);
+    border-color: rgb(253, 164, 134);
 }
 .btn-secondary {
-    background-color: aliceblue;
-    color:  coral;
+    background-color: rgb(251, 134, 92);
+    color:  rgb(255, 255, 255);
     padding: 10px 20px ;
     border-radius: 5px; 
     text-decoration: none;
-    border: coral;
+    border: rgb(251, 134, 92);
+    margin-right: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(249, 189, 156);
+    color:  rgb(255, 255, 255);
+    border: rgb(253, 164, 134);
+}
     
 
+th, td {
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;    
 }
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(251, 134, 92);
+}
+.s-image-fill {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Mogra", serif;
+    font-weight: 400;
+    font-style: normal;   
+    background-color: rgb(251, 134, 92);
+    color: #FFFFFF;
+    padding: 10px 20px ;
+    border-radius: 5px; 
+    border: rgb(251, 134, 92);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+button:hover{
+    background-color: rgb(249, 189, 156);
+    color:  rgb(255, 255, 255);
+    border: rgb(253, 164, 134);
+}
+.card1, .card2 {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 1114px;
+    
+}
+.btn1 {
+    margin-left: auto;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.btn1:hover {
+    color:  rgb(251, 134, 92);
+}
+
