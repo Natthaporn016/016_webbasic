@@ -129,6 +129,9 @@ nav ul{
         font-size: 14px;
         font-weight: bold;
     }
+    a:hover{
+        color: var(--p4-color);
+    }
     
     
 }
