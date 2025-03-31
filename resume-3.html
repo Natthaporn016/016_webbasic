@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education&Skills</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet" href="/css/resume-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Signika:wght@300..700&display=swap" rel="stylesheet"href="/css/resume-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Lavishly+Yours&family=Love+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Charm:wght@400;700&family=Lavishly+Yours&family=Love+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Charm:wght@400;700&family=Lavishly+Yours&family=Love+Light&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+        font-family: "Mogra", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        background-image: url(/image/bg015.jpg);
+    }
+    .container {
+        position: relative;
+        width: 1200px;
+        display: flex;
+        height: 100%;
+
+            
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        border-radius: 20px;
+        margin-bottom: 60px;
+        backdrop-filter: blur(5px);
+
+    }
+    .container.card {
+        position: relative;
+        width: 300px;
+        height: 600px;
+        
+        border-radius: 20px;
+        
+        margin: 30px;
+        display: flex;
+        
+        justify-content: center;
+        transition: 0.3s ease-in-out;
+    }
+    .container .card:hover {
+        height: 420px;
+    
+    }
+    .container .card .imge {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        left: 20px;
+        top: -60px;
+        z-index: 1;
+        
+    }
+    .container .card .imge img {
+        max-width: 100%;
+        border-radius: 4px;
+    }
+    
+    .container .card .content {
+        position: relative;
+        margin-top: -140px;
+        padding: 10px 15px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+
+    }
+    .container .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -120px;
+    }
+    .container .card .content h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .container .card .content p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #666;
+    }
+    .container .card .content a {
+        display: inline-block;
+        
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        
+
+       
+    }
+    h1{
+        font-family: "Beau Rivage", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 150px;
+            color: #5d5d5d;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+            margin: 0;
+            padding: 0;
+        }
+        h1:hover {
+            transform: scale(1.1);
+        }
+        p{
+            font-family: "Vollkorn", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            transition: transform 0.5s ease-in-out;
+
+            &:hover{
+                transform: scale(1.1)
+            }
+        }
+        h3{
+            font-family: "Beau Rivage", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 50px;
+            color: #403e3e;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+            margin: 0;
+            padding: 0;
+        }
+        h4{
+            font-family: "Beau Rivage", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 40px;
+            color: #5d5d5d;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+            margin: 0;
+            padding: 0;
+        }
+        button{
+            font-family: "Vollkorn", serif;
+            font-size: 20px;
+            text-align: left;
+            list-style: none;
+            padding: 0;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 99px 99px 99px 99px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #e9e8d0;
+            border: none;
+             box-shadow:inset  2px 4px 4px #4a4a49;
+            transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                box-shadow:inset 2px 4px 4px #4a4949;
+                color: #333;
+                transform: scale(1.1);
+            }
+            &:active{
+                box-shadow:inset 2px 4px 4px #4a4949;
+                color: #333;
+            }
+            a{
+                color: #333;
+                text-decoration: none;
+            }
+            &:visited{
+                color: #787474;
+            }
+
+        }
+        
+    
+   
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Education</h1>
+        <div class="card">
+            <div class="imge">
+                <img src="/image/logo-mtbk.png" alt="" width="150">
+
+            </div>
+            <div class="content">
+                <h3>2018-2020</h3>
+                <h4>Mattayomthanbinkamphaengsaen School</h4>
+                <p>Arts and Mathematics Track</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="imge">
+                <img src="/image/logo-mtbk.png" alt="" width="150">
+
+            </div>
+            <div class="content">
+                <h3>2021-2023</h3>
+                <h4>Mattayomthanbinkamphaengsaen School</h4>
+                <p>Science Track</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="imge">
+                <img src="/image/logo-npru.png" alt="" width="200">
+
+            </div>
+            <div class="content">
+                <h3>2024-2025</h3>
+                <h4>Nakhon Pathom Rajabhat University</h4>
+                <P>Faculty of Science and Technology, Department of Information Technology</P>
+    
+
+            </div>
+        </div>
+    
+
+    </div>
+
+
+    <button><a href="resume.html" class="btn1">Back to Home</button>
+
+
+
+
+    
+</body>
+</html>
+
+
+
